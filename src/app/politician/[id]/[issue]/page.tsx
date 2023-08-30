@@ -12,7 +12,7 @@ const Issue = () => {
   });
   console.log(id, issue);
   const politician = data?.fetchPolitician;
-  if (isLoading) {
+  if (isLoading || !politician) {
     return <div>Loading...</div>;
   }
   return (
