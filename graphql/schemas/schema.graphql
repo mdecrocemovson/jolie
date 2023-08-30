@@ -1,0 +1,11 @@
+query GetPolitician($id: String!) {
+  fetchPolitician(id: $id) {
+    firstName
+    lastName
+    party {
+      name
+    }
+    image
+    description
+  }
+}
