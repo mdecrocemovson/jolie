@@ -10,7 +10,6 @@ const Issue = () => {
   const { data, isLoading } = useGetPoliticianQuery(client, {
     id: id as string,
   });
-  console.log(id, issue);
   const politician = data?.fetchPolitician;
   if (isLoading || !politician) {
     return <div>Loading...</div>;
