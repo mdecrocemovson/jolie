@@ -1,5 +1,6 @@
 overwrite: true
 schema: http://localhost:4000/graphql
+
 documents: "./graphql/schemas/*.graphql"
 generates:
   ./lib/generated/politics-service.ts:
