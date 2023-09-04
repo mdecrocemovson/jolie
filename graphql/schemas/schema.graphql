@@ -1,5 +1,6 @@
 query GetPolitician($id: String!) {
   fetchPolitician(id: $id) {
+    id
     firstName
     lastName
     party {
@@ -7,5 +8,9 @@ query GetPolitician($id: String!) {
     }
     image
     description
+    issues {
+      description
+      name
+    }
   }
 }
