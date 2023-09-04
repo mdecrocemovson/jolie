@@ -24,7 +24,7 @@ const Politician = () => {
         </h1>
         <p>{politician?.description}</p>
       </div>
-      <Issues politician={politician} />
+      <Issues politician={politician || {}} />
     </>
   );
 };
