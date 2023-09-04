@@ -17,7 +17,7 @@ const Issues = ({ politician }: { politician: Politician }) => {
       <List>
         {politician.issues?.map((issue) => {
           return (
-            <ListItem disablePadding>
+            <ListItem key={issue?.description} disablePadding>
               <Link href={`${politician.id}/${issue?.name}`}>
                 {issue?.name}
               </Link>

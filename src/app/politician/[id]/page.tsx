@@ -17,7 +17,7 @@ const Politician = () => {
   }
   return (
     <>
-      <BreadCrumbs />
+      <BreadCrumbs links={[]} />
       <div style={{ display: "flex", flexDirection: "column" }}>
         <h1>
           {politician?.firstName} {politician?.lastName}
