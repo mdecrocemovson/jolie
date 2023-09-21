@@ -6,7 +6,7 @@ import {
   ListItemText,
 } from "@mui/material";
 import Link from "next/link";
-import { Politician } from "../../lib/generated/politics-service";
+import { Politician } from "../../lib/generated/jolie-service";
 
 const Issues = ({ politician }: { politician?: Politician }) => {
   return (

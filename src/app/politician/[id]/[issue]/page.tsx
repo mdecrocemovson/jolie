@@ -2,7 +2,7 @@
 import { Typography } from "@mui/material";
 import { useParams } from "next/navigation";
 import { capitalize } from "../../../../utils/utils";
-import { useGetPoliticianQuery } from "../../../../../lib/generated/politics-service";
+import { useGetPoliticianQuery } from "../../../../../lib/generated/jolie-service";
 import { client } from "../../../../../graphql/schemas/graphqlClient";
 
 const Issue = () => {
