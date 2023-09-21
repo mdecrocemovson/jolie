@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { useGetPoliticianQuery } from "../../../../lib/generated/politics-service";
+import { useGetPoliticianQuery } from "../../../../lib/generated/jolie-service";
 import { client } from "../../../../graphql/schemas/graphqlClient";
 import { BreadCrumbs } from "@/components/BreadCrumbs";
 import { Issues } from "@/components/Issues";

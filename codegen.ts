@@ -3,7 +3,7 @@ const config = {
   schema: "http://localhost:8080/graphql",
   documents: "./graphql/schemas/*.graphql",
   generates: {
-    "./lib/generated/politics-service.ts": {
+    "./lib/generated/jolie-service.ts": {
       plugins: [
         "typescript",
         "typescript-operations",
